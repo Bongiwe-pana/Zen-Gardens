@@ -1,0 +1,68 @@
+
+
+body {
+    background-image:url(/images/pink.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #080105;
+    text-shadow: 3px;
+    font-family: "Arima", system-ui;
+        font-optical-sizing: auto;
+        font-weight: 200px;
+        font-style: normal;
+}
+h1 {
+    color: #ee116d;
+
+    text-align: left;
+    font-size: 100px;
+    font-family:"Arima",system-ui;
+    
+}
+h2{
+    font-size: 40px;
+    vertical-align: bottom;
+}
+ul{
+    text-align: right;
+    float: right;
+    color: #0e0d0d;
+
+}
+p{
+    font-weight: 800;
+    width: 40%;
+    float: left;
+    margin: 0 0 0 10px
+}
+ .img {
+filter: blur(100px);
+}
+.button :hover{
+background-color: #ee116d;
+}
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div img { 
+    width: 400px;
+    height: 300px;
+    border: 2px solid #ff3d0036;
+    border-radius: 13px;
+    box-shadow: 4px 7px 7px 0px #00000042;
+    cursor: pointer;
+    margin: 10px;
+    transition: 400ms;
+}
+div img:hover {
+    filter: grayscale(1);
+    transform: scale(1.03);
+}
+h3 {
+    text-shadow: 100px;
+    text-align: center;
+    color: #da4496;
+}

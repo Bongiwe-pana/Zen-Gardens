@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offers</title>
+    <style> 
+        *{ 
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-image:url(/images/pink\ flower\ border.jpg);
+            background-size: cover;
+        }
+        h1 {
+            text-align: center;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-shadow: 50%;
+            color: #ec1894;
+        }
+        .container {
+            width: 90%;
+            margin: 50px auto;
+        }
+        .heading {
+            text-align: center;
+            font-size: 30px;
+            margin-bottom: 50px;
+        }
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+             flex-flow: wrap;
+
+        }
+        .card{
+            width: 30%;
+            background-color: palevioletred;
+            border: 1px solid #ccc;
+            margin-bottom: 50px;
+            transition: 0.3s;
+        }
+        .card-header {
+            text-align: center;
+            padding: 50px 10px;
+            background: linear-gradient(to right, #ff416c, #eca7cf);
+            color: #fff;
+        }
+        .card-body{
+            padding: 30px 20px;
+            text-align: center;
+            font-size: 18px;
+        }
+        .card-body .btn{
+            display: block;
+            color:#fff;
+            text-align: center;
+            background: linear-gradient(to right, #ff416c, #ec1894);
+            margin-top: 30px;
+            text-decoration: none;
+            padding: 10px 5px;
+        }
+        .card:hover{
+            transform: scale(1.05);
+            box-shadow: 0 0 40px -10px rgba(0, 0, 0, 0.25);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="Heading">
+            <h1>Our Offers</h1>
+        </div>
+        <div class="row">
+
+            <div class="card">
+                <div class="card-header">
+                    <h2>Massages</h2>
+                </div>
+                <div class="card-body">
+                    <p>We offer hotstone,deep tissue,thai,aromatherapy,prenatal and reflexology</p>
+                    <a href="#" class="btn">Enquire</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h2>Day Visits</h2>
+                </div>
+                <div class="card-body">
+                    <p>Come for a day full of relaxation ,unwind in our tranquil environment...</p>
+                    <a href="#" class="btn">Enquire</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h2>One Month Stay</h2>
+                </div>
+                <div class="card-body">
+                    <p>Stay with us for a full month and get rid of all your everyday stress...</p>
+                    <a href="#" class="btn">Enquire</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header">
+                    <h2>Three Months Stay</h2>
+                </div>
+                <div class="card-body">
+                    <p>Come and have a lifestyle reset with us for a full three months...</p>
+                    <a href="#" class="btn">Enquire</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
